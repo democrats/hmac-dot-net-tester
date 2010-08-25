@@ -1,0 +1,15 @@
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\bin\Release\HmacTester.exe.config
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\bin\Release\HmacTester.exe.manifest
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\bin\Release\HmacTester.application
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\bin\Release\HmacTester.exe
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\bin\Release\HmacTester.pdb
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Release\HmacTester.HmacTester.resources
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Release\HmacTester.Properties.Resources.resources
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Release\HmacTester.TrustInfo.xml
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Release\HmacTester.exe.manifest
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Release\HmacTester.application
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Release\HmacTester.exe
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Release\HmacTester.pdb

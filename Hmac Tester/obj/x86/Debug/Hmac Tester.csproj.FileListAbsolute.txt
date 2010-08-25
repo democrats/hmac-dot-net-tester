@@ -1,0 +1,10 @@
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\bin\Debug\HmacTester.exe.config
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\bin\Debug\HmacTester.exe
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\bin\Debug\HmacTester.pdb
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\HmacTester.HmacTester.resources
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\HmacTester.Properties.Resources.resources
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\HmacTester.exe
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\HmacTester.pdb
