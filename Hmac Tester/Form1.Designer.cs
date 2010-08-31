@@ -33,11 +33,16 @@
             this.apiKeyLabel = new System.Windows.Forms.Label();
             this.testButton = new System.Windows.Forms.Button();
             this.debugGroupBox = new System.Windows.Forms.GroupBox();
-            this.debugOutput = new System.Windows.Forms.TextBox();
+            this.debugOutput = new System.Windows.Forms.RichTextBox();
             this.serviceUrlTextBox = new System.Windows.Forms.TextBox();
             this.apiKeyTextBox = new System.Windows.Forms.TextBox();
             this.apiUsernameTextBox = new System.Windows.Forms.TextBox();
             this.apiUsernameLabel = new System.Windows.Forms.Label();
+            this.methodPicker = new System.Windows.Forms.ComboBox();
+            this.methodPickerLabel = new System.Windows.Forms.Label();
+            this.requestBodyLabel = new System.Windows.Forms.Label();
+            this.requestBodyTextBox = new System.Windows.Forms.TextBox();
+            this.workingBar = new System.Windows.Forms.ProgressBar();
             this.debugGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,10 +66,10 @@
             // 
             // testButton
             // 
-            this.testButton.Location = new System.Drawing.Point(309, 108);
+            this.testButton.Location = new System.Drawing.Point(16, 249);
             this.testButton.Name = "testButton";
             this.testButton.Size = new System.Drawing.Size(75, 23);
-            this.testButton.TabIndex = 3;
+            this.testButton.TabIndex = 5;
             this.testButton.Text = "Test";
             this.testButton.UseVisualStyleBackColor = true;
             this.testButton.Click += new System.EventHandler(this.testButton_Click);
@@ -75,27 +80,23 @@
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.debugGroupBox.Controls.Add(this.debugOutput);
-            this.debugGroupBox.Location = new System.Drawing.Point(16, 152);
+            this.debugGroupBox.Location = new System.Drawing.Point(13, 278);
             this.debugGroupBox.Name = "debugGroupBox";
-            this.debugGroupBox.Size = new System.Drawing.Size(679, 473);
+            this.debugGroupBox.Size = new System.Drawing.Size(679, 453);
             this.debugGroupBox.TabIndex = 5;
             this.debugGroupBox.TabStop = false;
             this.debugGroupBox.Text = "Debug";
             // 
             // debugOutput
             // 
-            this.debugOutput.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
             this.debugOutput.BackColor = System.Drawing.Color.Black;
+            this.debugOutput.Dock = System.Windows.Forms.DockStyle.Fill;
             this.debugOutput.ForeColor = System.Drawing.Color.White;
-            this.debugOutput.Location = new System.Drawing.Point(7, 20);
-            this.debugOutput.Multiline = true;
+            this.debugOutput.Location = new System.Drawing.Point(3, 16);
             this.debugOutput.Name = "debugOutput";
-            this.debugOutput.ReadOnly = true;
-            this.debugOutput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.debugOutput.Size = new System.Drawing.Size(666, 447);
-            this.debugOutput.TabIndex = 4;
+            this.debugOutput.Size = new System.Drawing.Size(673, 434);
+            this.debugOutput.TabIndex = 6;
+            this.debugOutput.Text = "";
             // 
             // serviceUrlTextBox
             // 
@@ -133,11 +134,69 @@
             this.apiUsernameLabel.TabIndex = 8;
             this.apiUsernameLabel.Text = "API Username";
             // 
+            // methodPicker
+            // 
+            this.methodPicker.FormattingEnabled = true;
+            this.methodPicker.Items.AddRange(new object[] {
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE",
+            "HEAD"});
+            this.methodPicker.Location = new System.Drawing.Point(94, 89);
+            this.methodPicker.Name = "methodPicker";
+            this.methodPicker.Size = new System.Drawing.Size(121, 21);
+            this.methodPicker.TabIndex = 3;
+            this.methodPicker.Text = "GET";
+            this.methodPicker.SelectedIndexChanged += new System.EventHandler(this.methodPicker_selectedIndexChanged);
+            // 
+            // methodPickerLabel
+            // 
+            this.methodPickerLabel.AutoSize = true;
+            this.methodPickerLabel.Location = new System.Drawing.Point(13, 92);
+            this.methodPickerLabel.Name = "methodPickerLabel";
+            this.methodPickerLabel.Size = new System.Drawing.Size(43, 13);
+            this.methodPickerLabel.TabIndex = 10;
+            this.methodPickerLabel.Text = "Method";
+            // 
+            // requestBodyLabel
+            // 
+            this.requestBodyLabel.AutoSize = true;
+            this.requestBodyLabel.Location = new System.Drawing.Point(13, 120);
+            this.requestBodyLabel.Name = "requestBodyLabel";
+            this.requestBodyLabel.Size = new System.Drawing.Size(74, 13);
+            this.requestBodyLabel.TabIndex = 12;
+            this.requestBodyLabel.Text = "Request Body";
+            // 
+            // requestBodyTextBox
+            // 
+            this.requestBodyTextBox.Location = new System.Drawing.Point(94, 117);
+            this.requestBodyTextBox.Multiline = true;
+            this.requestBodyTextBox.Name = "requestBodyTextBox";
+            this.requestBodyTextBox.ReadOnly = true;
+            this.requestBodyTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.requestBodyTextBox.Size = new System.Drawing.Size(598, 110);
+            this.requestBodyTextBox.TabIndex = 4;
+            // 
+            // workingBar
+            // 
+            this.workingBar.Location = new System.Drawing.Point(98, 248);
+            this.workingBar.Name = "workingBar";
+            this.workingBar.Size = new System.Drawing.Size(591, 23);
+            this.workingBar.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.workingBar.TabIndex = 13;
+            this.workingBar.Visible = false;
+            // 
             // HmacTester
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(707, 637);
+            this.ClientSize = new System.Drawing.Size(707, 743);
+            this.Controls.Add(this.workingBar);
+            this.Controls.Add(this.requestBodyTextBox);
+            this.Controls.Add(this.requestBodyLabel);
+            this.Controls.Add(this.methodPickerLabel);
+            this.Controls.Add(this.methodPicker);
             this.Controls.Add(this.apiUsernameTextBox);
             this.Controls.Add(this.apiUsernameLabel);
             this.Controls.Add(this.apiKeyTextBox);
@@ -150,7 +209,6 @@
             this.Name = "HmacTester";
             this.Text = "Hmac Tester";
             this.debugGroupBox.ResumeLayout(false);
-            this.debugGroupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,11 +220,16 @@
         private System.Windows.Forms.Label apiKeyLabel;
         private System.Windows.Forms.Button testButton;
         private System.Windows.Forms.GroupBox debugGroupBox;
-        private System.Windows.Forms.TextBox debugOutput;
         private System.Windows.Forms.TextBox serviceUrlTextBox;
         private System.Windows.Forms.TextBox apiKeyTextBox;
         private System.Windows.Forms.TextBox apiUsernameTextBox;
         private System.Windows.Forms.Label apiUsernameLabel;
+        private System.Windows.Forms.ComboBox methodPicker;
+        private System.Windows.Forms.Label methodPickerLabel;
+        private System.Windows.Forms.Label requestBodyLabel;
+        private System.Windows.Forms.TextBox requestBodyTextBox;
+        private System.Windows.Forms.RichTextBox debugOutput;
+        private System.Windows.Forms.ProgressBar workingBar;
     }
 }
 

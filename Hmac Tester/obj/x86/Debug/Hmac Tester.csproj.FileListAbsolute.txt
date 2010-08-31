@@ -8,3 +8,8 @@ C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Teste
 C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\HmacTester.Properties.Resources.resources
 C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\HmacTester.exe
 C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\HmacTester.pdb
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\bin\Debug\HmacTester.exe.manifest
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\bin\Debug\HmacTester.application
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\HmacTester.TrustInfo.xml
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\HmacTester.exe.manifest
+C:\Users\Wes Morgan\Documents\Visual Studio 2010\Projects\Hmac Tester\Hmac Tester\obj\x86\Debug\HmacTester.application
